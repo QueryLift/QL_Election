@@ -4,9 +4,8 @@ Election Response Logger Scheduler Configuration
 
 # Schedule settings - when to run the comprehensive logging
 SCHEDULE_TIMES = [
-    "02:00",  # Early morning
-    "14:00",  # Afternoon
-    "22:00"   # Evening
+    "00:00",
+        # Evening
 ]
 
 # Log settings

@@ -265,6 +265,7 @@ class GenManager():
                     "content": prompt
                 }
             ],
+            max_tokens=2000
         )
         source = None
         response_text = response.choices[0].message.content
@@ -480,7 +481,7 @@ class GenManager():
                     }
                 ],
                 temperature=0,
-                max_tokens=5000,
+                max_tokens=2000,
                 tools=[
                 {
                     "type": "web_search_20250305",
@@ -573,6 +574,7 @@ class GenManager():
             ],
             "temperature":0,
             "model":"grok-3-latest",
+            "max_tokens":2000,
             "search_parameters":{
                 "mode": "on",
                 "return_citations":True
@@ -646,6 +648,7 @@ class GenManager():
             ],
             "search_mode":"web",
             "temperature":0,
+            "max_tokens":2000,
             "web_search_options":{
                 "search_context_size":"high",
                 "country":"jpn"

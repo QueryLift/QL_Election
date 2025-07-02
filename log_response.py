@@ -468,7 +468,6 @@ def log_response_for_candidate(candidate_id):
                     party_names
                 )
                 
-                # Run uncertainty quantification
                 uq_result = asyncio.run(test_blackbox_scorers(model.name, [prompt_content], num_responses=5))
                 
                 # Convert numpy types to Python native types for database compatibility
@@ -632,7 +631,6 @@ def log_responses_for_open_questions():
                     party_names
                 )
                 
-                # Run uncertainty quantification
                 uq_result = asyncio.run(test_blackbox_scorers(model.name, [prompt.content], num_responses=5))
                 
                 # Convert numpy types to Python native types for database compatibility
