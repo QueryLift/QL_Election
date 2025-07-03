@@ -9,7 +9,7 @@ import time
 import logging
 import sys
 from datetime import datetime
-from log_response import log_all_responses, log_responses_for_all_parties, log_responses_for_all_candidates, log_responses_for_open_questions
+from log_response_lite import log_all_responses, log_responses_for_all_parties, log_responses_for_all_candidates, log_responses_for_open_questions
 from scheduler_config import *
 
 # Log configuration
