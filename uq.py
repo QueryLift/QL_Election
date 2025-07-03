@@ -165,6 +165,7 @@ class GenManager:
                     {"role": "system", "content": "split each sentence by writing in a new line"},
                     {"role": "user", "content": prompt}
                 ],
+                "max_tokens":1900
                 # Note: gpt-4o-search-preview doesn't support temperature parameter
             }
             
@@ -214,7 +215,8 @@ class GenManager:
             config = GenerateContentConfig(
                 tools=[google_search_tool],
                 response_modalities=["TEXT"],
-                temperature=0
+                temperature=0,
+                max_output_tokens=1900
             )
             
             # Note: Gemini doesn't provide token-level logprobs in the same way as OpenAI
@@ -271,7 +273,7 @@ class GenManager:
                 system="split each sentence by writing in a new line",  # Use system parameter
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0,
-                max_tokens=5000,
+                max_tokens=1900,
                 tools=[{
                     "type": "web_search_20250305",
                     "name": "web_search",
@@ -348,7 +350,8 @@ class GenManager:
                 "search_parameters": {
                     "mode": "on",
                     "return_citations": True
-                }
+                },
+                "max_tokens":1900
             }
             response = requests.post(url, headers=headers, json=payload)
             response = response.json()
@@ -408,7 +411,8 @@ class GenManager:
                 "web_search_options": {
                     "search_context_size": "high",
                     "country": "jpn"
-                }
+                },
+                "max_tokens":1900
             }
             headers = {
                 "Authorization": f"Bearer {os.getenv('PERPLEXITY_API_KEY')}",
@@ -465,6 +469,7 @@ class GenManager:
                     {"role": "system", "content": system_prompt},  # Use UQLM's system prompt
                     {"role": "user", "content": user_prompt}
                 ],
+                "max_tokens":1900
                 # Note: gpt-4o-search-preview doesn't support temperature parameter
             }
             
@@ -522,7 +527,8 @@ class GenManager:
             config = GenerateContentConfig(
                 tools=[google_search_tool],
                 response_modalities=["TEXT"],
-                temperature=temperature  # Use UQLM's temperature
+                temperature=temperature,  # Use UQLM's temperature
+                max_output_tokens=1900
             )
             
             response = self.gemini.models.generate_content(
@@ -575,7 +581,7 @@ class GenManager:
                 system=system_prompt,  # Use system parameter instead of message role
                 messages=[{"role": "user", "content": user_prompt}],  # Only user message
                 temperature=temperature,  # Use UQLM's temperature
-                max_tokens=5000,
+                max_tokens=2000,
                 tools=[{
                     "type": "web_search_20250305",
                     "name": "web_search",
@@ -650,7 +656,8 @@ class GenManager:
                 "search_parameters": {
                     "mode": "on",
                     "return_citations": True
-                }
+                },
+                "max_tokens":1900
             }
             
             # Add any additional parameters from UQLM
@@ -715,7 +722,8 @@ class GenManager:
                 "web_search_options": {
                     "search_context_size": "high",
                     "country": "jpn"
-                }
+                },
+                "max_tokens":1900
             }
             
             # Add any additional parameters from UQLM
