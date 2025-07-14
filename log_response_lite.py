@@ -274,7 +274,7 @@ def log_response_for_party(party_id):
     models = dbmgr.get_all_models()
     
     # Get or create active prompts for this party
-    prompts = dbmgr.create_party_prompts(party_id)
+    prompts = dbmgr.get_active_prompts_by_party(party_id=party_id)
     if not prompts:
         print(f"No prompts could be created for party {party.name}")
         return
@@ -424,7 +424,7 @@ def log_response_for_candidate(candidate_id):
     models = dbmgr.get_all_models()
     
     # Get or create active prompts for this candidate
-    prompts = dbmgr.create_candidate_prompts(candidate_id)
+    prompts = dbmgr.get_active_prompts_by_candidate(candidate_id=candidate_id)
     
     if not prompts:
         print(f"No prompts could be created for candidate {candidate.name}")
