@@ -60,57 +60,7 @@ class DBManager:
         
         return query.all()
     
-    def create_party_prompts(self, party_id):
-        """Create prompts for a party if they don't exist"""
-        party_prompts_patterns = [
-            "【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？",
-            "【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？",
-            "【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。",
-            "【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？",
-            "【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？"
-        ]
-        
-        existing_prompts = self.get_active_prompts_by_party(party_id)
-        if existing_prompts:
-            return existing_prompts
-        
-        created_prompts = []
-        for pattern in party_prompts_patterns:
-            prompt = Prompt(
-                party_id=party_id,
-                content=pattern,
-                is_active=True
-            )
-            self.session.add(prompt)
-            created_prompts.append(prompt)
-        
-        self.session.commit()
-        return created_prompts
     
-    def create_candidate_prompts(self, candidate_id):
-        """Create prompts for a candidate if they don't exist"""
-        candidate_prompts_patterns = [
-            "［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。",
-            "［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。",
-            "［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。"
-        ]
-        
-        existing_prompts = self.get_active_prompts_by_candidate(candidate_id)
-        if existing_prompts:
-            return existing_prompts
-        
-        created_prompts = []
-        for pattern in candidate_prompts_patterns:
-            prompt = Prompt(
-                candidate_id=candidate_id,
-                content=pattern,
-                is_active=True
-            )
-            self.session.add(prompt)
-            created_prompts.append(prompt)
-        
-        self.session.commit()
-        return created_prompts
     
     def create_response(self, prompt_id, content, model_id, usage=None, search_query=None, 
                       sentiment=None, party_mention_rate=None, semantic_negentropy=None,
