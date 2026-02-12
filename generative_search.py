@@ -69,7 +69,7 @@ def get_gemini_index(candidate):
     for chunk in gmeta.grounding_chunks:
         # URL が無い場合はタイトルのみになるケースがある
         urls.append(
-            getattr(chunk.web, "url", None) or
+            getattr(chunk.web, "uri", None) or
             getattr(chunk.web, "title", "unknown_source")
         )
 

@@ -24,8 +24,8 @@ RETRY_DELAY = 300  # 5 minutes
 DEBUG_MODE = False
 
 # Execution settings
-ENABLE_PARTIES = True      # Run party response logging
-ENABLE_CANDIDATES = True   # Run candidate response logging  
+ENABLE_PARTIES = False   # Run party response logging
+ENABLE_CANDIDATES = False   # Run candidate response logging  
 ENABLE_OPEN_QUESTIONS = True  # Run open question response logging
 
 # Rate limiting (seconds between different logging phases)

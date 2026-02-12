@@ -1,0 +1,25 @@
+2025-07-14 17:00:07,255 - INFO - Generating comprehensive error report: error_report.txt
+2025-07-14 17:00:07,255 - INFO - Starting model error check for: all models
+2025-07-14 17:00:08,801 - INFO - Found 3 errors in model responses
+2025-07-14 17:00:08,806 - INFO - Starting prompt error check for type: all types
+2025-07-14 17:00:08,824 - INFO - Found 357 errors in prompts
+2025-07-14 17:00:08,824 - INFO - Starting database integrity check
+2025-07-14 17:00:08,894 - INFO - Found 0 database integrity errors
+2025-07-14 17:00:08,894 - INFO - Generating model performance statistics
+2025-07-14 17:00:34,647 - INFO - Generating comprehensive error report: error_report.txt
+2025-07-14 17:00:34,647 - INFO - Starting model error check for: all models
+2025-07-14 17:00:35,680 - INFO - Found 3 errors in model responses
+2025-07-14 17:00:35,684 - INFO - Starting prompt error check for type: all types
+2025-07-14 17:00:35,704 - INFO - Found 357 errors in prompts
+2025-07-14 17:00:35,704 - INFO - Starting database integrity check
+2025-07-14 17:00:35,777 - INFO - Found 0 database integrity errors
+2025-07-14 17:00:35,777 - INFO - Generating model performance statistics
+2025-07-14 17:00:50,487 - INFO - Generating comprehensive error report: error_report.txt
+2025-07-14 17:00:50,488 - INFO - Starting model error check for: all models
+2025-07-14 17:00:51,981 - INFO - Found 3 errors in model responses
+2025-07-14 17:00:51,986 - INFO - Starting prompt error check for type: all types
+2025-07-14 17:00:52,005 - INFO - Found 357 errors in prompts
+2025-07-14 17:00:52,006 - INFO - Starting database integrity check
+2025-07-14 17:00:52,076 - INFO - Found 0 database integrity errors
+2025-07-14 17:00:52,076 - INFO - Generating model performance statistics
+2025-07-14 17:00:52,829 - INFO - Error report generated: error_report.txt

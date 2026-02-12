@@ -1,0 +1,1629 @@
+================================================================================
+ELECTION DATABASE ERROR REPORT
+Generated: 2025-07-14 17:00:50
+================================================================================
+
+MODEL ERRORS
+----------------------------------------
+Type: missing_sentiment
+Response ID: 692
+Model: perplexity-sonar
+Error: Sentiment analysis failed or missing
+----------------------------------------
+Type: missing_sentiment
+Response ID: 1493
+Model: perplexity-sonar
+Error: Sentiment analysis failed or missing
+----------------------------------------
+Type: missing_sentiment
+Response ID: 3898
+Model: perplexity-sonar
+Error: Sentiment analysis failed or missing
+----------------------------------------
+
+PROMPT ERRORS
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 1
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 2
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 3
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 4
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 5
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 6
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 7
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 8
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 9
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 10
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 11
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 12
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 13
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 14
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 15
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 16
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 17
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 18
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 19
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 20
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 21
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 22
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 23
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 24
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 25
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 26
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 27
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 28
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 29
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 30
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 31
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 32
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 33
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 34
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 35
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 36
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 37
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 38
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 39
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 40
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 41
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 42
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 43
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 44
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 45
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 46
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 47
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 48
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 49
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 50
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 51
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 52
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 53
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 54
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 55
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 56
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 57
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 58
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 59
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 60
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 61
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 62
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 63
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 64
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 65
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 66
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 67
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 68
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 69
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 70
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 71
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 72
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 73
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 74
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 75
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 76
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 77
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 78
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 79
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 80
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 81
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 82
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 83
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 84
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 85
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 86
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 87
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 88
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 89
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 90
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 91
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 92
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 93
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 94
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 95
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 96
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 97
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 98
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 99
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 100
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 101
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 102
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 103
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 104
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 105
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 106
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 107
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 108
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 109
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 110
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 111
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 112
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 113
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 114
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 115
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 116
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 117
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 118
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 119
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 120
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 121
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 122
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 123
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 124
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 125
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 126
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 127
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 128
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 129
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 130
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 131
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 132
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 133
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 134
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 135
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 136
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 137
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 138
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 139
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 140
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 141
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 142
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 143
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 144
+Error: Party-specific prompt missing party_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 145
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 146
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 147
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 148
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 149
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 150
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 151
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 152
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 153
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 154
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 155
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 156
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 157
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 158
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 159
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 160
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 161
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 162
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 163
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 164
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 165
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 166
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 167
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 168
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 169
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 170
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 171
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 172
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 173
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 174
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 175
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 176
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 177
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 178
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 179
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 180
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 181
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 182
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 183
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 184
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 185
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 186
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 187
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 188
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 189
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 190
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 191
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 192
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 193
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 194
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 195
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 196
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 197
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 198
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 199
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 200
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 201
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 202
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 203
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 204
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 205
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 206
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 207
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 208
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 209
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 210
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 211
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 212
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 213
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 214
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 215
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 216
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 217
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 218
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 219
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 220
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 221
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 222
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 223
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 224
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 225
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 226
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 227
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: orphaned_prompt
+Prompt ID: 228
+Error: Candidate-specific prompt missing candidate_id
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 263
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 264
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 265
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 266
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 267
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 268
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 269
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 270
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 271
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 272
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 273
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 274
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 275
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 276
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 277
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 278
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 279
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 280
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 281
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 282
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 283
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 284
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 285
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 286
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 287
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 288
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 289
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 290
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 291
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 292
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 293
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 294
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 295
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 296
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 297
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 298
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 299
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 300
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 301
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 302
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 303
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、物価高への対策として消費税率をどう扱うと公約していますか？据え置き・減税・増税のどれを提案していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 304
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、所得減税や現金給付を行うとした場合、その財源をどのように確保すると説明していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 305
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、防衛費を GDP 比でどの水準まで引き上げるべきだと主張していますか？財源論も含め教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 306
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、原発再稼働と再生可能エネルギー拡大のバランスをどのように示していますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 307
+Error: Unresolved placeholder: '【政党名】'
+Content: 【政党名】は、生成 AI や個人情報保護に関してどのような法規制・支援策を掲げていますか？
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 308
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 309
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 310
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 311
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 312
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 313
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 314
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 315
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 316
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 317
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 318
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 319
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 320
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 321
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 322
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 323
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 324
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 325
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 326
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 327
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 328
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 329
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 330
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 331
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 332
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 333
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 334
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 335
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 336
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 337
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 338
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 339
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 340
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 341
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 342
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 343
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 344
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 345
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 346
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 347
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 348
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 349
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 350
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 351
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 352
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 353
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 354
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 355
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 356
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 357
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 358
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 359
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 360
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 361
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 362
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 363
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 364
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 365
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 366
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 367
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 368
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 369
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 370
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 371
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 372
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 373
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 374
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 375
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 376
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 377
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 378
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 379
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 380
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 381
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 382
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 383
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 384
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 385
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 386
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 387
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 388
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 389
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］の主な経歴と専門分野は何ですか？前職や実績を教えてください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 390
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］について過去３年間で報じられた倫理問題やスキャンダルはありますか？事実関係を整理してください。
+----------------------------------------
+Type: unresolved_placeholder
+Prompt ID: 391
+Error: Unresolved placeholder: '［候補者名］'
+Content: ［候補者名］が今回の参院選で掲げる最重要公約は何ですか？その実現可能性を評価してください。
+----------------------------------------
+
+DATABASE INTEGRITY ERRORS
+----------------------------------------
+No database integrity errors found.
+
+MODEL PERFORMANCE STATISTICS
+----------------------------------------
+Model: gpt-4o-search-preview
+Total Responses: 1315
+Error Responses: 0
+Error Rate: 0.00%
+Missing Sentiment: 0
+Avg Sentiment: -0.017
+Avg Response Length: 736.3 chars
+----------------------------------------
+Model: gemini-2.0-flash
+Total Responses: 1213
+Error Responses: 0
+Error Rate: 0.00%
+Missing Sentiment: 0
+Avg Sentiment: -0.026
+Avg Response Length: 658.2 chars
+----------------------------------------
+Model: claude-3-7-sonnet-20240620
+Total Responses: 1315
+Error Responses: 0
+Error Rate: 0.00%
+Missing Sentiment: 0
+Avg Sentiment: -0.054
+Avg Response Length: 632.3 chars
+----------------------------------------
+Model: grok-2-latest
+Total Responses: 1313
+Error Responses: 0
+Error Rate: 0.00%
+Missing Sentiment: 0
+Avg Sentiment: -0.032
+Avg Response Length: 1470.1 chars
+----------------------------------------
+Model: perplexity-sonar
+Total Responses: 1314
+Error Responses: 0
+Error Rate: 0.00%
+Missing Sentiment: 3
+Avg Sentiment: -0.031
+Avg Response Length: 677.1 chars
+----------------------------------------

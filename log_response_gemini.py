@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 from create_db import Base, Party, Candidate, Model, Prompt, Response, ResponseSource, ResponseCitation, PartyResponseMention, PartyCitationMention, Category
 from generative_search import GenManager
 from analysis import sentiment_analysis, PMR, citation_rate, check_citation_mentions
-from uq import test_blackbox_scorers
-import asyncio
 
 load_dotenv()
 
@@ -31,7 +29,7 @@ class DBManager:
         return self.session.query(Candidate).all()
     
     def get_all_models(self):
-        return self.session.query(Model).all()
+        return [self.session.query(Model).all()[1]]
     
     def get_active_prompts_by_party(self, party_id):
         return self.session.query(Prompt).filter(
@@ -60,8 +58,9 @@ class DBManager:
         elif prompt_type_id == 2 and candidate_id is not None:
             query = query.filter(Prompt.candidate_id == candidate_id)
         
-        
         return query.all()
+    
+    
     
     def create_response(self, prompt_id, content, model_id, usage=None, search_query=None, 
                       sentiment=None, party_mention_rate=None, semantic_negentropy=None,
@@ -199,9 +198,9 @@ class AnalysisManager:
 
 def log_response_for_party(party_id):
     """
-    Main function to log AI responses for a specific party
+    Lightweight version of party response logging without UQ processing
     """
-    print(f"Starting response logging for party ID: {party_id}")
+    print(f"Starting lite response logging for party ID: {party_id}")
     start_time = time.time()
     
     # Initialize managers
@@ -257,29 +256,22 @@ def log_response_for_party(party_id):
                     ai_response["response_text"], 
                     party_names
                 )
-                uq_result = asyncio.run(test_blackbox_scorers(model.name, [prompt_content], num_responses=5))
                 
-                # Convert numpy types to Python native types for database compatibility
-                def convert_numpy_to_python(value):
-                    if hasattr(value, 'item'):  # numpy scalar
-                        return value.item()
-                    return value
-                
-                # Create response record
+                # Create response record WITHOUT UQ processing - set all UQ fields to None
                 response = dbmgr.create_response(
                     prompt_id=prompt.id,
                     content=ai_response["response_text"],
                     model_id=model.id,
                     usage=ai_response.get("usage"),
                     search_query=ai_response.get("search_query"),
-                    sentiment=convert_numpy_to_python(sentiment),
-                    party_mention_rate=convert_numpy_to_python(bmr),
-                    semantic_negentropy=convert_numpy_to_python(uq_result["semantic_negentropy"]),
-                    noncontradiction=convert_numpy_to_python(uq_result["noncontradiction"]),
-                    exact_match=convert_numpy_to_python(uq_result["exact_match"]),
-                    cosine_sim=convert_numpy_to_python(uq_result["cosine_sim"]),
-                    bert_score=convert_numpy_to_python(uq_result["bert_score"]),
-                    bleurt=convert_numpy_to_python(uq_result["bleurt"]),
+                    sentiment=sentiment,
+                    party_mention_rate=bmr,
+                    semantic_negentropy=None,  # Skip UQ processing
+                    noncontradiction=None,     # Skip UQ processing
+                    exact_match=None,          # Skip UQ processing
+                    cosine_sim=None,           # Skip UQ processing
+                    bert_score=None,           # Skip UQ processing
+                    bleurt=None,               # Skip UQ processing
                 )
                 
                 # Process sources
@@ -344,7 +336,7 @@ def log_response_for_party(party_id):
                         party_id=mentioned_party.id
                     )
                 
-                print(f"    Response logged successfully (ID: {response.id})")
+                print(f"    Response logged successfully (ID: {response.id}) [LITE - No UQ]")
                 
             except Exception as e:
                 print(f"    Error generating response: {str(e)}")
@@ -352,13 +344,13 @@ def log_response_for_party(party_id):
     
     end_time = time.time()
     duration = end_time - start_time
-    print(f"Response logging completed for party {party.name} in {duration:.2f} seconds")
+    print(f"Lite response logging completed for party {party.name} in {duration:.2f} seconds")
 
 def log_response_for_candidate(candidate_id):
     """
-    Main function to log AI responses for a specific candidate
+    Lightweight version of candidate response logging without UQ processing
     """
-    print(f"Starting response logging for candidate ID: {candidate_id}")
+    print(f"Starting lite response logging for candidate ID: {candidate_id}")
     start_time = time.time()
     
     # Initialize managers
@@ -416,29 +408,21 @@ def log_response_for_candidate(candidate_id):
                     party_names
                 )
                 
-                uq_result = asyncio.run(test_blackbox_scorers(model.name, [prompt_content], num_responses=5))
-                
-                # Convert numpy types to Python native types for database compatibility
-                def convert_numpy_to_python(value):
-                    if hasattr(value, 'item'):  # numpy scalar
-                        return value.item()
-                    return value
-                
-                # Create response record
+                # Create response record WITHOUT UQ processing - set all UQ fields to None
                 response = dbmgr.create_response(
                     prompt_id=prompt.id,
                     content=ai_response["response_text"],
                     model_id=model.id,
                     usage=ai_response.get("usage"),
                     search_query=ai_response.get("search_query"),
-                    sentiment=convert_numpy_to_python(sentiment),
-                    party_mention_rate=convert_numpy_to_python(bmr),
-                    semantic_negentropy=convert_numpy_to_python(uq_result["semantic_negentropy"]),
-                    noncontradiction=convert_numpy_to_python(uq_result["noncontradiction"]),
-                    exact_match=convert_numpy_to_python(uq_result["exact_match"]),
-                    cosine_sim=convert_numpy_to_python(uq_result["cosine_sim"]),
-                    bert_score=convert_numpy_to_python(uq_result["bert_score"]),
-                    bleurt=convert_numpy_to_python(uq_result["bleurt"]),
+                    sentiment=sentiment,
+                    party_mention_rate=bmr,
+                    semantic_negentropy=None,  # Skip UQ processing
+                    noncontradiction=None,     # Skip UQ processing
+                    exact_match=None,          # Skip UQ processing
+                    cosine_sim=None,           # Skip UQ processing
+                    bert_score=None,           # Skip UQ processing
+                    bleurt=None,               # Skip UQ processing
                 )
                 
                 # Process sources with enhanced handling
@@ -491,7 +475,7 @@ def log_response_for_candidate(candidate_id):
                                     party_id=mentioned_party.id
                                 )
                 
-                print(f"    Response logged successfully (ID: {response.id})")
+                print(f"    Response logged successfully (ID: {response.id}) [LITE - No UQ]")
                 
             except Exception as e:
                 print(f"    Error generating response: {str(e)}")
@@ -499,40 +483,13 @@ def log_response_for_candidate(candidate_id):
     
     end_time = time.time()
     duration = end_time - start_time
-    print(f"Response logging completed for candidate {candidate.name} in {duration:.2f} seconds")
-
-def log_responses_for_all_parties():
-    """
-    Log responses for all active parties
-    """
-    dbmgr = DBManager()
-    parties = dbmgr.get_all_parties()
-    
-    print(f"Starting response logging for {len(parties)} parties")
-    
-    for party in parties:
-        log_response_for_party(party.id)
-        time.sleep(1)  # Small delay between parties
-
-def log_responses_for_all_candidates():
-    """
-    Log responses for all candidates
-    """
-    dbmgr = DBManager()
-    candidates = dbmgr.get_all_candidates()
-    
-    print(f"Starting response logging for {len(candidates)} candidates")
-    
-    for candidate in candidates:
-        log_response_for_candidate(candidate.id)
-        time.sleep(1)  # Small delay between candidates
+    print(f"Lite response logging completed for candidate {candidate.name} in {duration:.2f} seconds")
 
 def log_responses_for_open_questions():
     """
-    Log responses for all open questions (prompt_type_id=3)
-    These prompts are not attached to specific parties or candidates
+    Lightweight version of open question response logging without UQ processing
     """
-    print("Starting response logging for open questions")
+    print("Starting lite response logging for open questions")
     start_time = time.time()
     
     # Initialize managers
@@ -579,29 +536,21 @@ def log_responses_for_open_questions():
                     party_names
                 )
                 
-                uq_result = asyncio.run(test_blackbox_scorers(model.name, [prompt.content], num_responses=5))
-                
-                # Convert numpy types to Python native types for database compatibility
-                def convert_numpy_to_python(value):
-                    if hasattr(value, 'item'):  # numpy scalar
-                        return value.item()
-                    return value
-                
-                # Create response record
+                # Create response record WITHOUT UQ processing - set all UQ fields to None
                 response = dbmgr.create_response(
                     prompt_id=prompt.id,
                     content=ai_response["response_text"],
                     model_id=model.id,
                     usage=ai_response.get("usage"),
                     search_query=ai_response.get("search_query"),
-                    sentiment=convert_numpy_to_python(sentiment),
-                    party_mention_rate=convert_numpy_to_python(bmr),
-                    semantic_negentropy=convert_numpy_to_python(uq_result["semantic_negentropy"]),
-                    noncontradiction=convert_numpy_to_python(uq_result["noncontradiction"]),
-                    exact_match=convert_numpy_to_python(uq_result["exact_match"]),
-                    cosine_sim=convert_numpy_to_python(uq_result["cosine_sim"]),
-                    bert_score=convert_numpy_to_python(uq_result["bert_score"]),
-                    bleurt=convert_numpy_to_python(uq_result["bleurt"]),
+                    sentiment=sentiment,
+                    party_mention_rate=bmr,
+                    semantic_negentropy=None,  # Skip UQ processing
+                    noncontradiction=None,     # Skip UQ processing
+                    exact_match=None,          # Skip UQ processing
+                    cosine_sim=None,           # Skip UQ processing
+                    bert_score=None,           # Skip UQ processing
+                    bleurt=None,               # Skip UQ processing
                 )
                 
                 # Process sources
@@ -666,7 +615,7 @@ def log_responses_for_open_questions():
                         party_id=mentioned_party.id
                     )
                 
-                print(f"    Response logged successfully (ID: {response.id})")
+                print(f"    Response logged successfully (ID: {response.id}) [LITE - No UQ]")
                 
             except Exception as e:
                 print(f"    Error generating response: {str(e)}")
@@ -674,49 +623,75 @@ def log_responses_for_open_questions():
     
     end_time = time.time()
     duration = end_time - start_time
-    print(f"Open question response logging completed in {duration:.2f} seconds")
+    print(f"Lite open question response logging completed in {duration:.2f} seconds")
+
+def log_responses_for_all_parties():
+    """
+    Log responses for all active parties (lite version)
+    """
+    dbmgr = DBManager()
+    parties = dbmgr.get_all_parties()
+    
+    print(f"Starting lite response logging for {len(parties)} parties")
+    
+    for party in parties:
+        log_response_for_party(party.id)
+        time.sleep(1)  # Small delay between parties
+
+def log_responses_for_all_candidates():
+    """
+    Log responses for all candidates (lite version)
+    """
+    dbmgr = DBManager()
+    candidates = dbmgr.get_all_candidates()
+    
+    print(f"Starting lite response logging for {len(candidates)} candidates")
+    
+    for candidate in candidates:
+        log_response_for_candidate(candidate.id)
+        time.sleep(1)  # Small delay between candidates
 
 def log_all_responses():
     """
-    Log responses for all types: parties, candidates, and open questions
+    Log responses for all types: parties, candidates, and open questions (lite version)
     """
-    print("Starting comprehensive response logging for all types")
+    print("Starting comprehensive lite response logging for all types")
     total_start_time = time.time()
     
     # Log responses for all parties
     print("\n" + "="*60)
-    print("PHASE 1: LOGGING PARTY RESPONSES")
+    print("PHASE 1: LOGGING PARTY RESPONSES (LITE)")
     print("="*60)
     log_responses_for_all_parties()
     
     # Log responses for all candidates
     print("\n" + "="*60)
-    print("PHASE 2: LOGGING CANDIDATE RESPONSES")
+    print("PHASE 2: LOGGING CANDIDATE RESPONSES (LITE)")
     print("="*60)
     log_responses_for_all_candidates()
     
     # Log responses for open questions
     print("\n" + "="*60)
-    print("PHASE 3: LOGGING OPEN QUESTION RESPONSES")
+    print("PHASE 3: LOGGING OPEN QUESTION RESPONSES (LITE)")
     print("="*60)
     log_responses_for_open_questions()
     
     total_end_time = time.time()
     total_duration = total_end_time - total_start_time
     print("\n" + "="*60)
-    print("ALL RESPONSE LOGGING COMPLETED")
+    print("ALL LITE RESPONSE LOGGING COMPLETED")
     print("="*60)
     print(f"Total time: {total_duration:.2f} seconds")
 
 if __name__ == "__main__":
     # Example usage
-    print("Election Response Logger")
-    print("1. Log responses for all parties")
-    print("2. Log responses for all candidates")
-    print("3. Log responses for specific party")
-    print("4. Log responses for specific candidate")
-    print("5. Log responses for open questions")
-    print("6. Log all responses (parties + candidates + open questions)")
+    print("Election Response Logger - LITE VERSION (No UQ Processing)")
+    print("1. Log responses for all parties (lite)")
+    print("2. Log responses for all candidates (lite)")
+    print("3. Log responses for specific party (lite)")
+    print("4. Log responses for specific candidate (lite)")
+    print("5. Log responses for open questions (lite)")
+    print("6. Log all responses - parties + candidates + open questions (lite)")
     
     choice = input("Select option (1-6): ")
     
